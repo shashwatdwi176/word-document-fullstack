@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "builed websocket for real time changes",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shashwatdwi176/word-document-fullstack.git"
+  },
+  "author": "Shashwat Dwivedi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shashwatdwi176/word-document-fullstack/issues"
+  },
+  "homepage": "https://github.com/shashwatdwi176/word-document-fullstack#readme",
+  "dependencies": {
+    "nodemon": "^3.0.3",
+    "socket.io": "^4.7.4"
+  }
+}
